@@ -1,0 +1,60 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 647.000000000000000000
+    Sizes = (
+      450s
+      598s
+      450s
+      598s
+      450s
+      598s)
+    inherited TABCONFIG: TTabItem
+      Size.Width = 150.000000000000000000
+      ExplicitSize.cx = 200.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListBox1: TListBox
+        Size.Width = 450.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 249.000000000000000000
+      end
+    end
+    inherited TABCADASTRO: TTabItem
+      Size.Width = 150.000000000000000000
+      ExplicitSize.cx = 100.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListBox2: TListBox
+        Size.Width = 450.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 233.000000000000000000
+        inherited ListBoxHeader1: TListBoxHeader
+          Size.Width = 450.000000000000000000
+        end
+      end
+    end
+    inherited TABLISTAR: TTabItem
+      Size.Width = 150.000000000000000000
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListBox3: TListBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 598.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 598.000000000000000000
+      end
+    end
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Button1: TButton [0]
+    end
+    inherited Label6: TLabel [1]
+      Size.Width = 450.000000000000000000
+    end
+    inherited Button2: TButton [2]
+    end
+  end
+end
